@@ -1,0 +1,38 @@
+.container{ 
+text-align: center;
+}
+.form{
+    border-radius: 10px;
+    text-align: center;
+ justify-content: center;
+}
+.input_field{
+
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    margin-left: 10px;
+ text-align: center;
+    
+}
+input,textarea,select{
+margin-left: 50px;
+}
+.pinky{
+    width: 70px;
+}
+@media screen and (min-width:0px) and (max-width:600px) {
+    body {
+      background-color: rgb(43, 212, 241);
+    }
+}
+@media screen and (min-width:601px) and (max-width:900px) {
+    body {
+      background-color: rgb(133, 122, 228);
+    }
+}
+@media screen and (min-width:901px) and (max-width:1200px) {
+    body {
+      background-color: rgb(206, 138, 238);
+    }
+}

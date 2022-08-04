@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index.html</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="mb-3 mt-3" style="background-color: white">
+            <div class="mb-3 mt-3">
+              <h3 style="margin-top: 10px">
+                Bootstrap Form Builder
+                <label for="sel1" class="form-label"></label>
+                <select
+                  class="form-select"
+                  id="sel1"
+                  name="sellist1"
+                  style="margin-bottom: 5px; font-size: medium"
+                >
+                  <option>4.1.3</option>
+                  <option>4.1.7</option>
+                  <option>5.1.0</option>
+                </select>
+              </h3>
+            </div>
+            <ul class="nav nav-tabs">
+              <li><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0nM09UcsjV3zDFLs7ECjV4eDeirrqlkcftw&usqp=CAU" height="15px" width="15px" alt="...">add a field</a></li>
+              <li class="active"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpoWVLmIQ9zxCGnNuqMS9D6ciSGciNn3xxOA&usqp=CAU" height="15px" width="15px" alt="..."> Edit field</a></li>
+              <li><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq2UOU52s5v3pjLce3kfc2DXJNBi3YwfeKgBl8AwpwSYG819oAVp0G1-l20kcCBgV3MsM&usqp=CAU"height="15px" width="15px" alt="..."> form settings</a></li>
+            </ul>
+            <br />
+          </div>
+          <form action="/action_page.php"  style="background-color: rgb(211, 229, 241)">
+            <div class="mb-3 mt-3">
+              <label for="text" class="form-label">Title</label>
+              <input
+                type="text"
+                class="form-control"
+                id="textfield"
+                placeholder="textfield"
+                style="margin-bottom: 5px"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="name" class="form-label">Unique id and name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="text2"
+                style="margin-bottom: 5px"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="placeholder" class="form-label">Placeholder</label>
+              <input
+                type="text"
+                class="form-control"
+                id="placeholder"
+                style="margin-bottom: 5px"
+              />
+            </div>
+            <div class="container mt-3">
+              <label for="sel1" class="form-label">Prepend:</label><br />
+              <select
+                class="form-select"
+                id="sel1"
+                name="sellist1"
+                style="margin-bottom: 5px; width: 100px"
+              >
+                <option>Yes</option>
+                <option>No</option>
+              </select>
+              <br />
+              <label for="sel2" class="form-label">Append:</label><br />
+              <select
+                class="form-select"
+                id="sel2"
+                name="sellist2"
+                style="margin-bottom: 5px; width: 100px"
+              >
+                <option>Yes</option>
+                <option>No</option>
+              </select>
+              <br />
+            </div>
+            <div class="mb-3">
+              <label for="instructions" class="form-label"
+                >Help text(instructions)</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="instructions"
+                style="margin-bottom: 5px"
+              />
+            </div>
+            <div class="form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="check1"
+                name="option1"
+                value="something"
+                checked
+              />
+              <label class="form-check-label" for="check1"
+                >Display label?</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="check2"
+                name="option2"
+                value="something"
+                checked
+              />
+              <label class="form-check-label" for="check2"
+                >Required field?</label
+              >
+            </div>
+          </form>
+        </div>
+
+        <div class="col-sm-6" style="margin-top:10px;">
+          <div class="mb-3 mt-3">
+            <ul class="nav nav-tabs">
+              <li><a href="#"><img src="file:///C:/Users/Lenovo/Pictures/editorlogo%20(2).png" height="15px" width="15px" alt="...">Editor </a></li>
+                 <li class="active">  <a href="#"></a>&nbsp; <img src="file:///C:/Users/Lenovo/Pictures/Untitled%20(2).png"  height="15px" width="15px" alt="...">  Code</li>
+                <div class="container mt-3" style="margin-left: 500px">
+                         <form action="/action_page.php">
+                            <label for="sell1" class="form-label">options</label>
+                            <select class="form-select" id="sell1" name="selllist1">
+                                 <option>option1</option>
+                                 <option>option2</option>
+                            </select>
+                </div>
+            </ul>
+          </div>
+            <div class="mb-3" style="display: flex">
+              <label for="Text field" class="form-label" style="margin: 20px"
+                >Text field</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="Textfield"
+                style="width: 400px; margin: 20px"
+              /><br />
+            </div>
+            <div class="mb-3" style="display: flex">
+              <label for="Text field1" class="form-label" style="margin: 20px"
+                >Text field</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="Text field1"
+                style="width: 400px; margin: 20px"
+              />
+            </div>
+            <div class="mb-3" style="display: flex">
+              <label for="Textarea" class="form-label" style="margin: 20px"
+                >Text Area</label
+              >
+              <textarea
+                class="form-control"
+                id="Text Area"
+                style="width: 400px; height: 150px; margin: 20px"
+              ></textarea>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <label for="Text field" class="form-label" style="margin: 15px"
+                >Radio Buttons</label
+              >
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio1"
+                value="option1"
+                style="margin: 10px"
+              />
+              <label class="form-check-label" for="inlineRadio1">Rabbit</label>
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="option2"
+                style="margin: 10px"
+              />
+              <label class="form-check-label" for="inlineRadio2">Duck</label>
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio3"
+                value="option3"
+                style="margin: 10px"
+              />
+              <label class="form-check-label" for="inlineRadio3">Fish</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <label for="Text field" class="form-label" style="margin: 20px"
+                >Checkboxes</label
+              >
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckbox1"
+                value="option1"
+                style="margin: 10px"
+              />
+              <label class="form-check-label" for="inlineCheckbox1"
+                >Rabbit</label
+              >
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckbox2"
+                value="option2"
+                style="margin: 10px"
+              />
+              <label class="form-check-label" for="inlineCheckbox2">Duck</label>
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckbox3"
+                value="option3"
+                style="margin: 10px"
+              />
+              <label class="form-check-label" for="inlineCheckbox3">Fish</label>
+            </div>
+
+            <div
+              class="mb-3"
+              style="display: flex; background-color: rgb(218, 230, 238)"
+            >
+              <label for="Text field1" class="form-label" style="margin: 20px"
+                >Text field</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="Text field1"
+                style="width: 300px; margin: 20px;"
+                <img src="sSCF.png">
+                <img src="file:///C:/Users/Lenovo/Pictures/Untitled%20(6).png" height="15px"   width="15px" alt="..."  style="margin-top: 23px; margin-left:5px">
+                <img src="file:///C:/Users/Lenovo/Pictures/Untitled%20(3).png" height="15px"   width="15px" alt="..."  style="margin-top: 23px; margin-left:5px"">
+                <img src="file:///C:/Users/Lenovo/Pictures/Untitled%20(4).png" height="15px"   width="15px" alt="..."  style="margin-top: 23px; margin-left:5px"">
+                <img src="file:///C:/Users/Lenovo/Pictures/Untitled%20(5).png" height="15px"   width="15px" alt="..."  style="margin-top: 23px; margin-left:5px"">
+               
+            </div>
+            <button
+              type="button"
+              class="btn btn-primary"
+              style="text-align: center; margin: 10px 0px 0px 300px"
+            >
+              submit
+            </button>
+          
+         </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
